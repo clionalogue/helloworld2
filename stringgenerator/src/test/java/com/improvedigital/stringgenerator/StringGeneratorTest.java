@@ -1,40 +1,42 @@
+package com.improvedigital.stringgenerator;
+
+import com.improvedigital.stringgenerator.StringGenerator;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * Created by clionalogue on 10/08/16.
  */
-public class HelloWorldTest {
+public class StringGeneratorTest {
     @Test
     public void getStringIsTwelveChar() throws Exception {
 
-        Assert.assertEquals(12, HelloWorld.getString().length());
+        Assert.assertEquals(12, StringGenerator.getString().length());
     }
 
     @Test
     public void getStringIsNotNull() throws Exception {
 
-        Assert.assertNotNull(HelloWorld.getString());
+        Assert.assertNotNull(StringGenerator.getString());
     }
 
     @Test
     public void getStringStartsWithH() throws Exception {
 
-        Assert.assertEquals('H', HelloWorld.getString().charAt(0));
+        Assert.assertEquals('H', StringGenerator.getString().charAt(0));
 
     }
 
     @Test
     public void getString2IsEighteenChar() throws Exception {
-        Assert.assertEquals(18, HelloWorld.getString2().length());
+        Assert.assertEquals(18, StringGenerator.getString2().length());
 
     }
 
     @Test
     public void getString2IsNotNull() throws Exception {
-        Assert.assertNotNull(HelloWorld.getString2());
+        Assert.assertNotNull(StringGenerator.getString2());
 
     }
+
 }

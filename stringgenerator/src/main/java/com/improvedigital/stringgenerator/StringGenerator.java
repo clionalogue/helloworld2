@@ -1,16 +1,10 @@
+package com.improvedigital.stringgenerator;
+
 /**
  * Created by clionalogue on 10/08/16.
  */
-public class HelloWorld {
+public class StringGenerator {
 
-    public static void main(String[] args) {
-
-        System.out.println(getString());
-
-        System.out.println(getString2());
-
-
-    }
 
     public static String getString() {
         return "Hello World!";
